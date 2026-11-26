@@ -22,7 +22,7 @@ public class PersonController {
                        Model model){
         System.out.println("name:"+name);
         System.out.println("family:"+family);
-        System.out.println("age"+age);
+        System.out.println("age:"+age);
         model.addAttribute("name",name);
         model.addAttribute("family",family);
         model.addAttribute("age",age);
