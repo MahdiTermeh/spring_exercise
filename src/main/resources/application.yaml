@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring_exercise
+  datasource:
+    username: root
+    password: root123
+    url: jdbc:mysql://localhost:3306/mftstore
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  thymeleaf:
+    cache: false
+    mode: HTML
+    prefix: classpath:/templates/
+    suffix: .html
